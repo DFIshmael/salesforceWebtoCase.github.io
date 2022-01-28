@@ -1,30 +1,23 @@
-<!doctype html>
-<head>
-   <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
-   <title>Web to case </title>
-   <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-   <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
-      <input type=hidden name="oid" value="00D5f000006OMAS">
-      <input type=hidden name="retURL" value="http:/https://www.salesforce.com/">
-      <input type="hidden" name="debug" value=1>                              
-      <input type="hidden" name="debugEmail"                                  
-        value="ishmael.derelle@gmail.com">                                      
-      
-      
-      <label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
-      
-      <label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
-      
-      <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
-      
-      <input type="submit" name="submit">
-      
-      </form>
-      
-</form>
- 
-</body>
-</html>
+   <input type=hidden name="oid" value="00D5f000006OMAS">
+   <input type=hidden name="retURL" value="http:/https://www.salesforce.com/">
+   
+   <!--  ----------------------------------------------------------------------  -->
+   <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+   <!--  these lines if you wish to test in debug mode.                          -->
+   <!--  <input type="hidden" name="debug" value=1>                              -->
+   <!--  <input type="hidden" name="debugEmail"                                  -->
+   <!--  value="ishmael.derelle@gmail.com">                                      -->
+   <!--  ----------------------------------------------------------------------  -->
+   
+   <label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+   
+   <label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+   
+   <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+   
+   <input type="submit" name="submit">
+   
+   </form>
+   
