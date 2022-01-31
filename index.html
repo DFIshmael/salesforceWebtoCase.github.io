@@ -46,7 +46,11 @@
    <body>
 
       <div>
-        <form action="/action_page.php">
+         <form action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+            <input type=hidden name="oid" value="00D2f0000008hpX">
+            <input type=hidden name="retURL" value="https://www.talentstacker.com/">
+            
           <label for="fname">First Name</label>
           <input type="text" id="fname" name="firstname" placeholder="Your first name..">
       
